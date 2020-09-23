@@ -1,0 +1,17 @@
+name = "Sam1"
+uuid = "9c5f0425-100c-4b99-87f5-30892aea4528"
+authors = ["WooKyoung Noh <wookay.noh@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+ThreeKingdoms = "2eda8d22-0a9d-11e9-38c1-d96e883f27f6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Jive = "ba5e3d4b-8524-549f-bc71-e76ad9e9deed"
+
+[targets]
+test = ["Test", "Jive"]
+
+[compat]
+julia = "1"
