@@ -539,14 +539,14 @@ for line in lines
         nt = custom[name]
     else
         nt = (; year_of_birth, body, intell, power, charisma, luck, loyalty, naval, men)
-    end
-    general = findfirstgeneral(name)
-    if general === nothing
-        nt = merge(nt, custom[name])
-    else
-        nt = merge(nt, (; 名=general.名,))
-        if haskey(general, :이름)
-            nt = merge(nt, (; 이름=general.이름))
+        general = findfirstgeneral(name)
+        if general === nothing
+            nt = merge(nt, custom[name])
+        else
+            nt = merge(nt, (; 名=general.名,))
+            if haskey(general, :이름)
+                nt = merge(nt, (; 이름=general.이름))
+            end
         end
     end
     push!(generals, (name, nt))
