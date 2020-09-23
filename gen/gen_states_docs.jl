@@ -32,7 +32,7 @@ function th(io)
 end
 
 function tr(io, nt)
-    print(io, " | ")
+    print(io, "| ")
     print(io, join(values(nt), " | "))
     print(io, " |")
     println(io)

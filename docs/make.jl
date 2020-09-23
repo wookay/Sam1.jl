@@ -13,6 +13,7 @@ makedocs(
     authors = "WooKyoung Noh",
     pages = Any[
         "Home" => "index.md",
-        "지도" => "maps.md",
+        "Generals" => "generals.md",
+        "States" => "states.md",
     ],
 )
