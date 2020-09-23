@@ -1,8 +1,8 @@
 custom = Dict(
 
 "Chen Qiao" =>
-    (year_of_birth = 149, body = 98, intell = 80, power = 22, charisma = 16, luck = 40, loyalty = 90, naval = false, men = 300, 名 = "陳群", 이름 = "진군",
-     edit = (name = "Chen Qun",)),
+    (year_of_birth = 149, body = 98, intell = 80, power = 22, charisma = 16, luck = 40, loyalty = 90, naval = false, men = 300, 名 = "陳矯", 이름 = "진교",
+     edit = (name = "Chen Jiao",)),
 
 "Chen Xi" =>
     (year_of_birth = 174, body = 67, intell = 23, power = 64, charisma = 34, luck = 44, loyalty = 85, naval = true, men = 900, 名 = "陳式", 이름 = "진식", 
