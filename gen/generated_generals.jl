@@ -229,7 +229,7 @@ generals = Dict(
     "Zhang Heng" => (year_of_birth = 177, body = 69, intell = 31, power = 74, charisma = 18, luck = 18, loyalty = 84, naval = true, men = 1000, 名 = "張橫", 이름 = "장횡"),
     "Zhang Ji" => (year_of_birth = 143, body = 45, intell = 70, power = 29, charisma = 17, luck = 22, loyalty = 73, naval = false, men = 1600, 名 = "張濟", 이름 = "장제"),
     "Zhang Ji" => (year_of_birth = 161, body = 85, intell = 60, power = 55, charisma = 49, luck = 82, loyalty = 94, naval = true, men = 800, 名 = "張濟", 이름 = "장제"),
-    "Zhang Kuang" => (year_of_birth = 171, body = 65, intell = 90, power = 27, charisma = 66, luck = 94, loyalty = 89, naval = false, men = 300, 名 = "章誑", 이름 = "장광"),
+    "Zhang Kuang" => (year_of_birth = 171, body = 65, intell = 90, power = 27, charisma = 66, luck = 94, loyalty = 89, naval = false, men = 300, 名 = "張紘", 이름 = "장굉", edit = (name = "Zhang Hong",)),
     "Zhang Lu" => (year_of_birth = 160, body = 74, intell = 80, power = 71, charisma = 93, luck = 64, loyalty = 82, naval = true, men = 8000, 名 = "張魯", 이름 = "장로"),
     "Zhang Miao" => (year_of_birth = 154, body = 82, intell = 20, power = 48, charisma = 57, luck = 78, loyalty = 61, naval = true, men = 1000, 名 = "張邈", 이름 = "장막"),
     "Zhang Ren" => (year_of_birth = 168, body = 82, intell = 66, power = 92, charisma = 83, luck = 59, loyalty = 96, naval = true, men = 1700, 名 = "張任", 이름 = "장임"),
