@@ -135,10 +135,6 @@ custom = Dict(
     (year_of_birth = 171, body = 65, intell = 90, power = 27, charisma = 66, luck = 94, loyalty = 89, naval = false, men = 300, 名 = "張紘", 이름 = "장굉",
      edit = (name = "Zhang Hong",)),
 
-"Zhou Liao" =>
-    (year_of_birth = 163, body = 87, intell = 86, power = 93, charisma = 74, luck = 98, loyalty = 85, naval = true, men = 1200, 名 = "張遼", 이름 = "장료",
-     edit = (name = "Zhang Liao",)),
-
 "Zhou Xiu" =>
     (year_of_birth = 153, body = 81, intell = 50, power = 76, charisma = 90, luck = 74, loyalty = 55, naval = true, men = 3000, 名 = "張繡", 이름 = "장수",
      edit = (name = "Zhang Xiu",)),
