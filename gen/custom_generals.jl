@@ -8,6 +8,10 @@ custom = Dict(
     (year_of_birth = 174, body = 67, intell = 23, power = 64, charisma = 34, luck = 44, loyalty = 85, naval = true, men = 900, 名 = "陳式", 이름 = "진식", 
      edit = (name = "Chen Shi",)),
 
+"Cheng Pu" =>
+    (year_of_birth = 159, body = 74, intell = 84, power = 41, charisma = 76, luck = 95, loyalty = 90, naval = false, men = 500, 名 = "程普", 이름 = "정보",
+     edit = (intell = 41, power = 84)),
+
 "Deng Lan" =>
     (year_of_birth = 172, body = 74, intell = 59, power = 33, charisma = 30, luck = 30, loyalty = 81, naval = false, men = 700, 名 = "鄧賢", 이름 = "등현",
      edit = (name = "Deng Xian",)),

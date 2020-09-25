@@ -29,7 +29,7 @@ generals = Dict(
     "Chen Wu" => (year_of_birth = 164, body = 85, intell = 58, power = 70, charisma = 28, luck = 75, loyalty = 90, naval = true, men = 1100, 名 = "陳武", 이름 = "진무"),
     "Chen Xi" => (year_of_birth = 174, body = 67, intell = 23, power = 64, charisma = 34, luck = 44, loyalty = 85, naval = true, men = 900, 名 = "陳式", 이름 = "진식", edit = (name = "Chen Shi",)),
     "Chen Ying" => (year_of_birth = 166, body = 89, intell = 19, power = 57, charisma = 40, luck = 68, loyalty = 73, naval = true, men = 900, 名 = "陳應", 이름 = "진응"),
-    "Cheng Pu" => (year_of_birth = 159, body = 74, intell = 84, power = 41, charisma = 76, luck = 95, loyalty = 90, naval = false, men = 500, 名 = "程普", 이름 = "정보"),
+    "Cheng Pu" => (year_of_birth = 159, body = 74, intell = 84, power = 41, charisma = 76, luck = 95, loyalty = 90, naval = false, men = 500, 名 = "程普", 이름 = "정보", edit = (intell = 41, power = 84)),
     "Cheng Yi" => (year_of_birth = 174, body = 82, intell = 37, power = 45, charisma = 24, luck = 21, loyalty = 82, naval = true, men = 1000, 名 = "成宜", 이름 = "성의"),
     "Cheng Yin" => (year_of_birth = 172, body = 79, intell = 41, power = 60, charisma = 27, luck = 24, loyalty = 81, naval = true, men = 1000, 名 = "程銀", 이름 = "정은"),
     "Cheng Yu" => (year_of_birth = 164, body = 55, intell = 92, power = 35, charisma = 44, luck = 45, loyalty = 81, naval = false, men = 200, 名 = "程昱", 이름 = "정욱"),
