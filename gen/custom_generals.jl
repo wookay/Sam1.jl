@@ -36,10 +36,6 @@ custom = Dict(
     (year_of_birth = 158, body = 82, intell = 20, power = 72, charisma = 25, luck = 28, loyalty = 85, naval = true, men = 1000, 名 = "于禁", 이름 = "우금",
      edit = (name = "Yu Jin",)),
 
-"Guo Xi" =>
-    (year_of_birth = 145, body = 63, intell = 37, power = 59, charisma = 60, luck = 31, loyalty = 79, naval = true, men = 20000, 名 = "郭汜", 이름 = "곽사",
-     edit = (name = "Guo Si",)),
-
 "Gou Yu" =>
     (year_of_birth = 162, body = 65, intell = 96, power = 24, charisma = 37, luck = 22, loyalty = 92, naval = false, men = 100, 名 = "荀彧", 이름 = "순욱",
      edit = (name = "Xun Yu",)),
@@ -47,6 +43,10 @@ custom = Dict(
 "Gou Zhi" =>
     (year_of_birth = 170, body = 65, intell = 67, power = 36, charisma = 70, luck = 29, loyalty = 96, naval = false, men = 400, 名 = "郭攸之", 이름 = "곽유지",
      edit = (name = "Guo Youzhi",)),
+
+"Guo Xi" =>
+    (year_of_birth = 145, body = 63, intell = 37, power = 59, charisma = 60, luck = 31, loyalty = 79, naval = true, men = 20000, 名 = "郭汜", 이름 = "곽사",
+     edit = (name = "Guo Si",)),
 
 "Guo Tu" =>
     (year_of_birth = 153, body = 89, intell = 43, power = 90, charisma = 16, luck = 85, loyalty = 88, naval = false, men = 1200, 名 = "郭圖", 이름 = "곽도",
@@ -59,6 +59,10 @@ custom = Dict(
 "Li Zhan" =>
     (year_of_birth = 175, body = 74, intell = 45, power = 54, charisma = 76, luck = 50, loyalty = 65, naval = true, men = 1000, 名 = "李堪", 이름 = "이감",
      edit = (name = "Li Kan",)),
+
+"Liu Chan" =>
+    (year_of_birth = 206, body = 71, intell = 34, power = 24, charisma = 93, luck = 81, loyalty = 95, naval = false, men = 1000, 名 = "劉禪", 이름 = "유선",
+     edit = (name = "Liu Shan",)),
 
 "Liu Coing" =>
     (year_of_birth = 190, body = 74, intell = 62, power = 78, charisma = 93, luck = 60, loyalty = 93, naval = false, men = 700, 名 = "劉琮", 이름 = "유종",
@@ -113,8 +117,8 @@ custom = Dict(
      edit = (intell = 74, power = 35)),
 
 "Xiong Rong" => 
-    (year_of_birth = 168, body = 74, intell = 16, power = 80, charisma = 41, luck = 26, loyalty = 74, naval = false, men = 1000, 名 = "向朗", 이름 = "상랑",
-     edit = (name = "Xiang Lang", intell = 80, power = 16)),
+    (year_of_birth = 168, body = 74, intell = 16, power = 80, charisma = 41, luck = 26, loyalty = 74, naval = false, men = 1000, 名 = "邢道榮", 이름 = "형도영",
+     edit = (name = "Xing Daorong",)),
 
 "Xu Long" =>
     (year_of_birth = 146, body = 78, intell = 34, power = 39, charisma = 75, luck = 80, loyalty = 85, naval = true, men = 10000, 名 = "徐榮", 이름 = "서영",
