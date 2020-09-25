@@ -192,7 +192,7 @@
 | Xiahou Xi | 夏侯尙 | 하후상 | `(name = "Xiahou Shang",)` | 184 | 84 | 46 | 76 | 54 | 37 | 93 | true | 1300 |
 | Xiahou Yuan | 夏侯淵 | 하후연 |  | 157 | 82 | 60 | 92 | 74 | 37 | 87 | true | 1500 |
 | Xin Pi | 辛毗 | 신비 | `(intell = 74, power = 35)` | 168 | 89 | 35 | 74 | 78 | 40 | 88 | true | 900 |
-| Xiong Rong | 向朗 | 상랑 | `(name = "Xiang Lang",)` | 168 | 74 | 16 | 80 | 41 | 26 | 74 | false | 1000 |
+| Xiong Rong | 向朗 | 상랑 | `(name = "Xiang Lang", intell = 80, power = 16)` | 168 | 74 | 16 | 80 | 41 | 26 | 74 | false | 1000 |
 | Xu Huang | 徐晃 | 서황 |  | 169 | 90 | 56 | 91 | 65 | 88 | 55 | true | 5000 |
 | Xu Jing | 許靖 | 허정 |  | 168 | 74 | 79 | 26 | 51 | 88 | 96 | false | 700 |
 | Xu Long | 徐榮 | 서영 | `(name = "Xu Rong",)` | 146 | 78 | 34 | 39 | 75 | 80 | 85 | true | 10000 |

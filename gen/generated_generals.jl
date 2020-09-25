@@ -191,7 +191,7 @@ generals = Dict(
     "Xiahou Xi" => (year_of_birth = 184, body = 84, intell = 46, power = 76, charisma = 54, luck = 37, loyalty = 93, naval = true, men = 1300, 名 = "夏侯尙", 이름 = "하후상", edit = (name = "Xiahou Shang",)),
     "Xiahou Yuan" => (year_of_birth = 157, body = 82, intell = 60, power = 92, charisma = 74, luck = 37, loyalty = 87, naval = true, men = 1500, 名 = "夏侯淵", 이름 = "하후연"),
     "Xin Pi" => (year_of_birth = 168, body = 89, intell = 35, power = 74, charisma = 78, luck = 40, loyalty = 88, naval = true, men = 900, 名 = "辛毗", 이름 = "신비", edit = (intell = 74, power = 35)),
-    "Xiong Rong" => (year_of_birth = 168, body = 74, intell = 16, power = 80, charisma = 41, luck = 26, loyalty = 74, naval = false, men = 1000, 名 = "向朗", 이름 = "상랑", edit = (name = "Xiang Lang",)),
+    "Xiong Rong" => (year_of_birth = 168, body = 74, intell = 16, power = 80, charisma = 41, luck = 26, loyalty = 74, naval = false, men = 1000, 名 = "向朗", 이름 = "상랑", edit = (name = "Xiang Lang", intell = 80, power = 16)),
     "Xu Huang" => (year_of_birth = 169, body = 90, intell = 56, power = 91, charisma = 65, luck = 88, loyalty = 55, naval = true, men = 5000, 名 = "徐晃", 이름 = "서황"),
     "Xu Jing" => (year_of_birth = 168, body = 74, intell = 79, power = 26, charisma = 51, luck = 88, loyalty = 96, naval = false, men = 700, 名 = "許靖", 이름 = "허정"),
     "Xu Long" => (year_of_birth = 146, body = 78, intell = 34, power = 39, charisma = 75, luck = 80, loyalty = 85, naval = true, men = 10000, 名 = "徐榮", 이름 = "서영", edit = (name = "Xu Rong",)),

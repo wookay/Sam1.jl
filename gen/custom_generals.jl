@@ -114,7 +114,7 @@ custom = Dict(
 
 "Xiong Rong" => 
     (year_of_birth = 168, body = 74, intell = 16, power = 80, charisma = 41, luck = 26, loyalty = 74, naval = false, men = 1000, 名 = "向朗", 이름 = "상랑",
-     edit = (name = "Xiang Lang",)),
+     edit = (name = "Xiang Lang", intell = 80, power = 16)),
 
 "Xu Long" =>
     (year_of_birth = 146, body = 78, intell = 34, power = 39, charisma = 75, luck = 80, loyalty = 85, naval = true, men = 10000, 名 = "徐榮", 이름 = "서영",
