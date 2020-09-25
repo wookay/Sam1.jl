@@ -113,7 +113,7 @@ generals = Dict(
     "Liu Dai" => (year_of_birth = 155, body = 87, intell = 34, power = 67, charisma = 25, luck = 67, loyalty = 89, naval = true, men = 1200, 名 = "劉岱", 이름 = "유대"),
     "Liu Du" => (year_of_birth = 144, body = 76, intell = 42, power = 40, charisma = 67, luck = 56, loyalty = 69, naval = false, men = 1500, 名 = "劉度", 이름 = "유도"),
     "Liu Feng" => (year_of_birth = 189, body = 85, intell = 71, power = 43, charisma = 81, luck = 96, loyalty = 94, naval = false, men = 600, 名 = "劉封", 이름 = "유봉", edit = (intell = 43, power = 71)),
-    "Liu Gong" => (year_of_birth = 159, body = 89, intell = 17, power = 38, charisma = 20, luck = 99, loyalty = 89, naval = false, men = 900, 名 = "鲁公", 이름 = "여공", edit = (name = "Lu Gong",)),
+    "Liu Gong" => (year_of_birth = 159, body = 89, intell = 17, power = 38, charisma = 20, luck = 99, loyalty = 89, naval = false, men = 900, 名 = "呂公", 이름 = "여공", edit = (name = "Lu Gong",)),
     "Liu Gui" => (year_of_birth = 173, body = 73, intell = 47, power = 50, charisma = 67, luck = 49, loyalty = 89, naval = true, men = 1800, 名 = "劉璝", 이름 = "유괴"),
     "Liu Li" => (year_of_birth = 217, body = 76, intell = 83, power = 26, charisma = 51, luck = 66, loyalty = 97, naval = false, men = 1000, 名 = "劉理", 이름 = "유리"),
     "Liu Qi" => (year_of_birth = 179, body = 89, intell = 92, power = 30, charisma = 84, luck = 18, loyalty = 97, naval = true, men = 1300, 名 = "劉琦", 이름 = "유기"),

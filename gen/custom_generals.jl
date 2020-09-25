@@ -69,7 +69,7 @@ custom = Dict(
      edit = (intell = 43, power = 71)),
 
 "Liu Gong" =>
-    (year_of_birth = 159, body = 89, intell = 17, power = 38, charisma = 20, luck = 99, loyalty = 89, naval = false, men = 900, 名 = "鲁公", 이름 = "여공",
+    (year_of_birth = 159, body = 89, intell = 17, power = 38, charisma = 20, luck = 99, loyalty = 89, naval = false, men = 900, 名 = "呂公", 이름 = "여공",
      edit = (name = "Lu Gong",)),
 
 "Ma Lin" =>
