@@ -13,6 +13,9 @@ function th(io)
     print(io, "| ")
     titles = ("ID",
               "NAME",
+              "名",
+              "이름",
+              "EDIT",
               "POPULATION",
               "LOYALITY",
               "GOLD",
@@ -32,8 +35,20 @@ function th(io)
 end
 
 function tr(io, nt)
+    名 = get(nt, :名, "")
+    이름 = get(nt, :이름, "")
+    edit_nt = get(nt, :edit, nothing)
+    if edit_nt === nothing
+        edit = ""
+    else
+        edit = string('`', edit_nt, '`')
+    end
+    props = (:ID, :name, :名, :이름, :population, :loyalty, :gold, :rice, :castles, :horses, :metal, :land_value, :flood_likelihood)
+    ID, name, 名, 이름, population, loyalty, gold, rice, castles, horses, metal, land_value, flood_likelihood = getproperty.(Ref(nt), props)
     print(io, "| ")
-    print(io, join(values(nt), " | "))
+    print(io, join((ID, name, 名, 이름, edit), " | "))
+    print(io, " | ")
+    print(io, join((population, loyalty, gold, rice, castles, horses, metal, land_value, flood_likelihood), " | "))
     print(io, " |")
     println(io)
 end

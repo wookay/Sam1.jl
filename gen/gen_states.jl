@@ -119,6 +119,13 @@ s = """
 | 58 || Jiaozhou  ||  25000 ||  8  ||  100 ||  2000 ||  1  ||    0  || {{yes}} ||   1  || 28 
 """
 
+using ThreeKingdoms: 地名
+function findfirstprovince(name)
+    p = findfirst(地名.疆埸) do 州
+        州.Name == name
+    end
+    地名.疆埸[p]
+end
 parseInt(x) = parse(Int, x)
 
 lines = split(s, "\n")
@@ -128,7 +135,18 @@ for line in lines
     ID, name, population, loyalty, gold, rice, castles, horses, metal_yesno, land_value, flood_likelihood = strip.(split(lstrip(line, ['|']), "||"))
     ID, population, loyalty, gold, rice, castles, horses, land_value, flood_likelihood = parseInt.((ID, population, loyalty, gold, rice, castles, horses, land_value, flood_likelihood))
     metal = metal_yesno == "{{yes}}"
-    nt = (; ID, name, population, loyalty, gold, rice, castles, horses, metal, land_value, flood_likelihood)
+    if name == "Keli"
+        province_name = "Sili"
+    elseif name == "Bianzhou"
+        province_name = "Bingzhou"
+    else
+        province_name = name
+    end
+    province = findfirstprovince(province_name)
+    nt = (; ID, name, population, loyalty, gold, rice, castles, horses, metal, land_value, flood_likelihood, 名=province.名, 이름=province.이름)
+    if province.Name != name
+        nt = merge(nt, (; edit = (; name = province.Name,),))
+    end
     push!(states, nt)
 end
 
